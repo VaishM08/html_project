@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalOnl</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="#">Cal<span>Onl</span></a>
+            <img id="mobile-cta" class="mobile-menu" src="images/hamburger.jpeg" alt="Open Navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+                
+                <ul class="primary-nav">
+                   
+                    <li class="addition-cta"><a href="#">Addition</a></li>
+                    <li class="subtraction-cta"><a href="#">Subtraction</a></li>
+                    <li class="Multiplication-cta"><a href="#">Multiplication</a></li>
+                    <li class="Division-cta"><a href="#">Division</a></li>
+                    <li class="SimpleInterest-cta"><a href="#">Simple Interest</a></li>
+                    <li class="CompoundInterest-cta"><a href="#">Compound Interest</a></li>
+                    <li class="VolumeSphere-cta"><a href="#">Volume Sphere</a></li>
+                    <li class="Distance-cta"><a href="#">Distance Formula</a></li>
+                    <li class="QuadEquation-cta"><a href="#">Quadratic Equation</a></li>
+                    <li class="Herons-cta"><a href="#">Heron's Formula</a></li>
+                    <li class="Pythagoras-cta"><a href="#">Pythagoras Theorem</a></li>
+                    
+                    
+                </section>
+            </ul>
+                                
+                </ul>
+                  
+
+                <ul class="secondary-nav">
+                                            
+     
+
+            </nav>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">It's Fast &amp; Vast</p>
+                <h1>Not Able to Find Answers to your Math Problem?</h1>
+                <p class="subhead">Don't Worry :)</p>
+                <h2>Get answers in just a click!</h2>
+
+                <div class="hero-cta">
+                    <a href="#" class="primary-cta">Our Website is Completely Free!</a>
+                    <a href="#" class="watch-video-cta"></a>
+                    <a href="#" class="watch-video-cta">Watch a Video</a>
+                    </a>
+                </div>
+            </div>
+
+            <img src="images/100.jpg" class="hero-img" alt="Illustration">
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">
+            <ul class="features-list">
+                <li>Unlimited Tasks</li>
+                <li>Instant Answers</li>
+                <li>Minimal Effort</li>
+                <li>Other cool stuff!</li>
+            
+            </ul>
+
+            <img src="images/holdphone.jpg" alt="Man holding phone">
+
+
+        </div>
+    </section>
+ 
+    
+
+    <section class="contact-section">
+        <div class="container">
+             <div class="contact-left">
+                <h1>If Something went wrong :( </h1> 
+                let us know here</h1>
+                 <h2>For Queries and Feedback</h2>
+
+                 <form action="">
+                     <label for="name">Name</label>
+                     <input type="text" id="name" name="name">
+
+                     <label for="email">Email</label>
+                     <input type="email" id="email" name="email">
+
+                     <label for="message">Message</label>
+                     <textarea name="message" id="message" cols="10" rows="10"></textarea>
+
+                     <input type="submit" class="send-message-cta" value="Send Message">
+
+                 </form>               
+             </div>
+        </div>
+    </section>
+   
+   
+    
+
+    <section class="testimonials-section">
+        <h1>THE CREATORS!</h1>
+        <h2>"At CalOnl we firmly believe th</h2>
+        <div class="container">
+            
+            <ul>
+                <li>
+                   
+                    
+                    <img src="images/Snapchat-772864001.jpg" alt="Person">
+                    <cite> Vaishanth Mohan</cite>
+                </li>
+                <li>
+                    <img src="images/compressjpgIMG-8635.jpg" alt="Person">
+                    <cite>  Meenakshi Sajeev</cite>
+
+                </li>
+                    
+                </li>
+                <li>
+                    <img src="images/Aryaman.jpeg" alt="Person">
+                    <cite>  Aryaman Prasad</cite>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <script>
+
+        let mobileBtn = document.getElementById('mobile-cta')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+
+    </script>
+    
+</body>
+</html>
+
